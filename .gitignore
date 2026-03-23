@@ -1,0 +1,23 @@
+# Python Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Project Specific - SECURITY CRITICAL
+devops_token.txt
+config.json
+*.log
+
+# Operating System
+.DS_Store
+Thumbs.db
+
+# Output Evidence (Avoid uploading generated docs)
+*.docx
+!template_file.docx
